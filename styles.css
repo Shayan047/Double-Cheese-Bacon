@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kulim Park', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 26px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.items a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+    margin-right: 24px;
+}
+
+.items > a:last-child {
+    margin-right: 0;
+}
+
+.login-btn button {
+    width: 114px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+/* ********************************************************* */
+
+.heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 92px 124px;
+}
+
+.text {
+    width: 531px;
+}
+
+.headline {
+    width: 100%;
+}
+
+.headline h1 {
+    font-size: 60px;
+    margin-bottom: 24px;
+}
+
+.headline p {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 48px;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+}
+
+.button .yellow-btn {
+    background-color: #FFCF23;
+    border: none;
+    width: 165px;
+    height: 45px;
+    border-radius: 30px;
+    margin-right: 24px;
+}
+
+/* ***************************************************************** */
+
+.info {
+    padding: 64px 180px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-box {
+    width: 360px;
+    height: 140px;
+}
+
+.info-box:last-child {
+    margin-right: 0;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.ellipse {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background-color: #FFCF23;
+    margin-right: 16px;
+}
+
+.info-box p {
+    letter-spacing: 0.1px;
+    line-height: 1.2;
+}
+
+.mh-section {
+    padding: 96px 150px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mh-content {
+    width: 503px;
+    color: white;
+    letter-spacing: 0.1px;
+}
+
+.mh-content > *:nth-child(-n + 2) {
+    margin-bottom: 16px;
+}
+
+.mh-content ul {
+    margin-left: 15px;
+    line-height: 2;
+}
+
+.reviews {
+    padding: 96px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rev-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 360px;
+    height: 348px;
+    background-color: #F3F3F3;
+    margin-right: 30px;
+    padding: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.rev-box:last-child {
+    margin-right: 0;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 192px 450px;
+    background: linear-gradient(80.53deg, rgba(255, 207, 35, 0.7) 0%, rgba(255, 226, 123, 0.7) 100%);
+}
+
+.cta-content {
+    width: 600px;
+    height: 336;
+}
+
+.cta-content div p {
+    margin-bottom: 12px;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.cta-content div h1 {
+    font-size: 40px;
+    letter-spacing: -0.5px;
+}
+
+.cta-content div {
+    margin-bottom: 32px;
+}
+
+.cta-content button {
+    width: 181px;
+    height: 40px;
+    border: none;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.footer {
+    padding: 96px 150px;
+    background-color: black;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
+
+.rectangle {
+    width: 228px;
+    height: 114px;
+}
+
+.rectangle h3 {
+    font-size: 16px;
+    margin-bottom: 16px;
+    letter-spacing: 0.1px;
+}
+
+.footer ul li {
+    list-style: none;
+    line-height: 2;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.sub {
+    position: relative;
+}
+
+.sub div input {
+    padding: 10px;
+    margin: 24px 0 16px 0;
+    width: 228px;
+    height: 48px;
+    border-radius: 30px;
+    border: none;
+    background-color: #191919;
+    caret-color: white;
+    color: white;
+}
+
+.sub div input::placeholder {
+    color: white;
+}
+
+.sub div input:focus {
+    outline: none;
+}
+
+.sub div button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 10px;
+    bottom: 16px;
+}
+
+.sub div p {
+    color: #454343;
+    font-size: 14px;
+    font-weight: regular;
+}
